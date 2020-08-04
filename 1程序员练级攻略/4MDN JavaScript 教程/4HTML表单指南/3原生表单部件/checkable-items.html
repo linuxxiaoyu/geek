@@ -1,21 +1,58 @@
-<html>
+<html lang="en">
     <head></head>
     <body>
-        <form action="">
-            <fieldset>
-                <legend>Choose all the vegetables you like to eat</legend>
+       <form action="">   
+           <fieldset>
+               <legend>Choose all the vegetables you like to eat</legend>
                 <ul>
                     <li>
-                        <input type="checkbox" checked id="carrots" name="carrots" value="carrots">
                         <label for="carrots">Carrots</label>
+                        <input type="checkbox" name="carrots"  checked id="carrots" value="carrots">
                     </li>
                     <li>
-                        <input type="checkbox" id="peas" name="peas" value="peass">
                         <label for="peas">Peas</label>
+                        <input type="checkbox" name="peas" id="peas" value="peas">
+                    </li>
+                    <li>
+                        <label for="cabbage">Cabbage</label>
+                        <input type="checkbox" name="cabbage" id="cabbage" value="cabbage">
+                    </li>
+                    <li>
+                        <label for="cauliflower">Cauliflower</label>
+                        <input type="checkbox" name="cauliflower" id="cauliflower" value="cauliflower">
+                    </li>
+                    <li>
+                        <label for="broccoli">Broccoli</label>
+                        <input type="checkbox" name="broccoli" id="broccoli" value="broccoli">
                     </li>
                 </ul>
+           </fieldset>
 
-            </fieldset>
-        </form>
+           <fieldset>
+               <legend>What is your favorite meal?</legend>
+               <ul>
+                   <li>
+                       <label for="soup">Soup</label>
+                       <input type="radio" checked name="meal" id="soup" value="soup">
+                   </li>
+                   <li>
+                       <label for="curry">Curry</label>
+                       <input type="radio" name="meal" id="curry" value="curry">
+                   </li>
+                   <li>
+                       <label for="pizza">Pizza</label>
+                       <input type="radio" name="meal" id="pizza" value="pizza">
+                   </li>
+                   <li>
+                       <label for="tacos">Tacos</label>
+                       <input type="radio" name="meal" id="tacos" value="tacos">
+                   </li>
+                   <li>
+                       <label for="bolognaise">Bolognaise</label>
+                       <input type="radio" name="meal" id="bolognaise" value="bolognaise">
+                   </li>
+               </ul>
+           </fieldset>
+       </form>
     </body>
 </html>
